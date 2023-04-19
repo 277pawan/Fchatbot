@@ -9,8 +9,9 @@ function Chatbot() {
     event.preventDefault();
     document.querySelector(".spinner").style.display = "block";
     document.querySelector(".chat-send-btn").style.display = "none";
-    const response = await fetch("http://localhost:3002/chat", {
+    const response = await fetch("https://backendchatbot.vercel.app/chat", {
       method: "POST",
+      mode: "no-cors",
       headers: {
         "Content-Type": "application/json",
       },

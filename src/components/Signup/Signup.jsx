@@ -27,8 +27,9 @@ function Signup() {
       work: work,
       adress: adress,
     };
-    fetch("http://localhost:3002/Signup", {
+    fetch("https://backendchatbot.vercel.app/Signup", {
       method: "POST",
+      mode: "no-cors",
       headers: {
         "content-Type": "application/json",
       },

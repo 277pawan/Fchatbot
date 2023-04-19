@@ -33,8 +33,9 @@ function Header() {
     let data = {
       emailenter: emailenter,
     };
-    fetch("http://localhost:3002/", {
+    fetch("https://backendchatbot.vercel.app/", {
       method: "POST",
+      mode: "no-cors",
       headers: { "content-Type": "application/json" },
       body: JSON.stringify(data),
     })
