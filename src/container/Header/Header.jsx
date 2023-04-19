@@ -44,6 +44,7 @@ function Header() {
       .then((data) => {
         console.log(data);
         setToken(data.token);
+        console.log(token);
         alert("Logged in successfully.");
         setTimeout(() => navigate("/chat"), 1000);
         setlogvalue("true");
