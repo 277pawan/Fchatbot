@@ -1,0 +1,182 @@
+.Tilt{
+    width: 300px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 4px;
+    color: rgb(54, 73, 98);
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: rgb(20 26 40 / 20%) 0px 7px 42px;
+    will-change: transform;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+.container{
+    display:flex;
+    height:600px;
+    width:1200px;
+    background-color: black;
+    margin-left:10%;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        display:flex;
+        height:800px;
+        width:510px;
+        word-wrap: break-word;
+        background-color: black;
+        margin-left:1%;
+    }
+    
+}
+.bar_view{
+    /* display:relative; */
+    height:06px;
+    margin-top:20px;
+    margin-left:40px;
+    width:40px;
+    background-color: red;
+}
+
+.whatgpt_view{
+    margin-top:15px;
+    font-size:20px;
+   
+    float:left;
+    font-weight:bold;
+    color:white;
+}
+@media only screen and (max-width: 600px) {
+    .whatgpt_view{
+        margin-top:15px;
+        font-size:20px;  
+        float:left;
+        margin-left: -1%;
+        font-weight:bold;
+        color:white;
+    }    
+}
+.whatgptanswer_view{
+    margin-top:10px;
+    color:white;
+    float:left;
+
+}
+@media only screen and (max-width: 600px) {
+    .whatgptanswer_view{
+        margin-top:15%;
+        margin-left: -5%;
+        color:white;
+        float:left;
+        display: block;
+        position:absolute;
+    
+    }
+}    
+
+.bar2_view{
+    /* display:relative; */
+    height:06px;
+    margin-top:20px;
+    margin-left:30%;
+    width:40px;
+    background-color: rgb(99, 255, 2);
+}
+@media only screen and (max-width: 600px) {
+    .bar2_view{
+        /* display:relative; */
+        height:06px;
+        margin-top:50%;
+        margin-left:-7%;
+        width:40px;
+        background-color: rgb(99, 255, 2);
+    }
+}
+.whatgpt2_view{
+    margin-top:15px;
+    font-size:20px;
+   margin-left:30%;
+    float:left;
+    font-weight:bold;
+    color:white;
+}
+@media only screen and (max-width: 600px) {
+    .whatgpt2_view{
+        margin-top:15px;
+        font-size:20px;
+       margin-left:10%;
+        float:left;
+        font-weight:bold;
+        color:white;
+    }
+}
+.whatgptanswer2_view{
+    margin-left:20%;
+    margin-top:10px;
+    color:white;
+    float:left;
+}
+
+@media only screen and (max-width: 600px) {
+    .whatgptanswer2_view{
+        margin-top:15%;
+        margin-left: -5%;
+        color:white;
+        float:left;
+        display: block;
+        position:absolute;
+    
+    }
+}   
+.bar3_view{
+    /* display:relative; */
+    height:06px;
+    margin-top:20px;
+    margin-left:35%;
+    width:40px;
+    background-color: rgb(0, 43, 237);
+}
+@media only screen and (max-width: 600px) {
+    .bar3_view{
+        /* display:relative; */
+        height:06px;
+        margin-top:100%;
+        margin-left:-10%;
+        width:40px;
+        background-color: rgb(0, 43, 237);
+    }
+}
+.whatgpt3_view{
+    margin-top:15px;
+    font-size:20px;
+    float:left;
+    /* margin-left: 10%; */
+    font-weight:bold;
+    color:white;
+}
+@media only screen and (max-width: 600px) {
+    .whatgpt3_view{
+        margin-top:15px;
+        font-size:20px;
+       margin-left:10%;
+        float:left;
+        font-weight:bold;
+        color:white;
+        }
+}
+.whatgptanswer3_view{
+    /* margin-left:260%; */
+    margin-top:10px;
+    color:white;
+    float:left;
+}
+@media only screen and (max-width: 600px) {
+    .whatgptanswer3_view{
+        margin-top:15%;
+        margin-left: -3%;
+        color:white;
+        float:center;
+        display: block;
+        position:absolute;
+    
+    }
+}   

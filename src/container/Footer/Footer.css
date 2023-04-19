@@ -1,0 +1,38 @@
+.footercontainer{
+
+    height:500px;
+
+background-color: black;
+    width:100%;
+    margin-top:10%;
+    border-radius: 10px;
+    background-size:400% 400%;
+    animation:gradient 10s ease infinite;
+    }
+.footerheadlight_view{
+    text-align: center;
+    color:white;
+    float: left;
+    background: linear-gradient(30deg, rgb(231, 130, 221),rgb(252, 133, 133),rgb(119, 255, 16));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;  
+    margin-top: 60px;
+    margin-left: 22%;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.arrowcss{
+    height:90px;
+    width:100px;
+    animation:bounce 2s linear infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(-25%);
+    }
+    50%{
+        transform: translateY(0);
+    }
+}

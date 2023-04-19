@@ -1,0 +1,127 @@
+.input-style{
+ 
+    font-size:24px;
+    margin:10px;
+    font-family:Arial Rounded MT;
+    border-bottom:5px inset #f4f0f1;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color:white;
+    background-color:transparent;
+    width:30%;
+}
+@media screen and (max-width: 700px) 
+{
+    .input-style{
+        font-size:24px;
+        margin:20px;
+        font-family:Arial Rounded MT;
+        border-bottom:5px inset #f4f0f1;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        color:white;    
+        background-color:transparent;
+        width:63%;
+    } 
+}
+.heading{
+    color: whitesmoke;
+    font-size: xxx-large;
+    font-family: sans-serif;
+}
+.resetbutton{
+    height: 40px;
+    width: 10%;
+    color: white;
+    border: none;
+    background: #4545db;
+    border-radius: 10px;
+    margin:10px;
+    font-size: medium;
+}
+@media screen and (max-width: 700px) 
+{
+    .resetbutton{
+        height: 50px;
+        width: 20%;
+        color: white;
+        border: none;
+        background: #4545db;
+        border-radius: 10px;
+        margin:10px;
+        font-size: 25px;
+    }   
+}
+.resetbutton:hover{
+    height: 40px;
+    width: 10%;
+    color: white;
+    border: none;
+    background: #0000ff;
+    border-radius: 10px;
+    margin:10px;
+    font-size: medium;
+}
+
+@media screen and (max-width: 700px) 
+{
+    .resetbutton:hover{
+        height: 50px;
+        width: 20%;
+        color: white;
+        border: none;
+        background: #0000ff;
+        border-radius: 10px;
+        font-size: 25px;
+        margin:10px;
+    }  
+}
+
+.submitbutton{
+    height: 40px;
+    width: 10%;
+    color: white;
+    border: none;
+    background: #4545db;
+    border-radius: 10px;
+    font-size: medium;
+    margin:10px;
+}
+@media screen and (max-width: 700px) 
+{
+    .submitbutton{
+        height: 50px;
+        width: 20%;
+        color: white;
+        border: none;
+        background: #4545db;
+        border-radius: 10px;
+        margin:10px;
+        font-size: 25px;
+    }   
+}
+.submitbutton:hover{
+    height: 40px;
+    width: 10%;
+    color: white;
+    border: none;
+    background: #0000ff;
+    border-radius: 10px;
+    font-size: medium;
+    margin:10px;
+}
+@media screen and (max-width: 700px) 
+{
+    .submitbutton:hover{
+        height: 50px;
+        width: 20%;
+        color: white;
+        border: none;
+        background: #0000ff;
+        border-radius: 10px;
+        font-size: 25px;
+        margin:10px;
+    }  
+}
