@@ -29,7 +29,7 @@ function Signup() {
     };
     fetch("https://backendchatbot.vercel.app/Signup", {
       method: "POST",
-      mode: "cors",
+      mode: "no-cors",
       headers: {
         "content-Type": "application/json",
       },
