@@ -35,7 +35,7 @@ function Header() {
     };
     fetch("https://backendchatbot.vercel.app/", {
       method: "POST",
-      mode: "no-cors",
+      mode: "cors",
       headers: { "content-Type": "application/json" },
       body: JSON.stringify(data),
     })
